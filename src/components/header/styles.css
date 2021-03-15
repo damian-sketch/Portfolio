@@ -1,0 +1,25 @@
+ul.Headerlist {
+    list-style-type: none;
+    margin-left: 700px;
+    width: 600px;
+    padding: 30px
+  }
+
+li{
+    display: inline;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    
+}  
+
+
+li:hover {
+    color: rgb(172, 35, 35);
+  }
+
+div.NavBar{
+    background-color: rgb(7, 7, 34);
+    height: 50px;
+    margin-top: 0;
+}  
