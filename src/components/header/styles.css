@@ -21,5 +21,6 @@ li:hover {
 div.NavBar{
     background-color: rgb(7, 7, 34);
     height: 50px;
-    margin-top: 0;
+    position: fixed;
+    top: 0;
 }  

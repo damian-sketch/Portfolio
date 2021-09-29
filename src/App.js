@@ -4,7 +4,6 @@ import './App.css';
 import Footer from './components/footer/index'
 import About from './components/about';
 import Experience from './components/experience';
-import  Profile  from './images/Profile.jpeg';
 import Stack from './components/stack';
 import Contact from './components/contact';
 
@@ -14,13 +13,12 @@ function App() {
   return (
     <div className="App">
       <Header setCurrentTab={setCurrentTab}/>
-      <div className="wrapper">
-      <img src={Profile} alt="Profile"/>
+      
       {currentTab === 'about' && (<About/>)}
       {currentTab === 'experience' && (<Experience/>)}
       {currentTab === 'stack' && (<Stack/>)}
       {currentTab === 'contact' && (<Contact/>)}
-      </div>
+    
       <Footer/>
     </div>
   );
