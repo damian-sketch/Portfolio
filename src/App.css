@@ -32,20 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-img{
+img {
   margin-left: -100px;
   height: 600px;
   border-radius: 5px;
 }
 
-
 .wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 20px 150px 20px ;
+  margin: 20px 150px 20px;
 }
