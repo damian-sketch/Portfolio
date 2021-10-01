@@ -29,8 +29,8 @@ const About = () => {
       <div className="about">
         <div data-aos="fade-up" className="aboutText">
         <p>I am an adept Front End Engineer with 2 years of Professional Software engineering experience and a passion in developing and designing web applications using React.<br></br>
-          Author of Software Engineering and Testing articles on <a href="https://cedric21.medium.com/">Medium</a><br></br><br></br>
-        <a href="https://github.com/damian-sketch?tab=repositories">Let's make something special</a>
+          Author of Software Engineering and Testing articles on <a href="https://cedric21.medium.com/" rel="noreferrer" target='_blank'>Medium</a><br></br><br></br>
+        <a href='https://www.linkedin.com/in/cedric-muuo-7625861aa/' rel="noreferrer" target='_blank'>Let's make something special</a>
         </p>
         </div>
       </div> 
