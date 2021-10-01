@@ -6,35 +6,6 @@
 }
 
 
-.stackText{
-    font-family: 'Roboto';
-    width: 500px;
-    font-size: 1.7em;
-    color: white;
-}
-
-.stackText h1{
-    animation: headershow 1s;
-}
-
-.stackText p{
-    animation: slidein 3s;
-    width: 500px;
-}
-
-@keyframes headershow{
-    0% {opacity:0;}
-    20% {opacity:0;}
-    80% {opacity:1;}
-    100% {opacity:1;}
-}
-
-@keyframes slidein {
-    0% { margin-left:800px; }
-    20% { margin-left:800px; }
-    70% { margin-left:0px; }
-    100% { margin-left:0px; }
-}
 
 body{
     background-color: rgb(7, 7, 34);

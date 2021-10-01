@@ -12,14 +12,12 @@ function App() {
   const [currentTab, setCurrentTab] = useState('about')
   return (
     <div className="App">
-      <Header setCurrentTab={setCurrentTab}/>
+      {/* <Header setCurrentTab={setCurrentTab}/> */}
       
       {currentTab === 'about' && (<About/>)}
       {currentTab === 'experience' && (<Experience/>)}
       {currentTab === 'stack' && (<Stack/>)}
       {currentTab === 'contact' && (<Contact/>)}
-    
-      <Footer/>
     </div>
   );
 }
