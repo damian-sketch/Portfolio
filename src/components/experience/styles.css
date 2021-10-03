@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap');
 
-.Experience{
-    display: flex;
-    justify-content: space-evenly;
-}
 
+.experience{
+    display: inline-block;
+    font-size: 1.7em;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(34, 22, 104, 0.692);
+  }
+  
+@media screen and (max-width: 360px) {
+  .experience {
+    width: 400px;
+    margin-left: -10px;
+    }
+  }
+  
+  .exp-text{
+    color: white;
+    font-size: 1em;
+    margin: 180px;
+  }
+
+@media screen and (max-width: 360px) {
+    .exp-text {
+    margin-left: 80px;
+    font-size: 0.7em;
+    width: 170px;
+    }
+  }
 
 p{
     font-size: 0.9em;
