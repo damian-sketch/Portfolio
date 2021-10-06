@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import './styles.css';
 import { format } from 'date-fns'
+import { zonedTimeToUtc } from 'date-fns-tz'
 
 
 const About = () => {
@@ -45,6 +46,9 @@ export const Time = () => {
 
   const [time, setTime] = useState(new Date());
 
+  var timeZone = 'Africa/Nairobi';
+  const utcDate = zonedTimeToUtc(time, timeZone)
+
   useEffect(
     () => {
       const intervalId = setInterval(() => {
@@ -59,7 +63,7 @@ export const Time = () => {
 
   return(
     <div>
-      <p>{`My local time is ${format(time, 'HH:mm')} GMT+3`} </p>
+      <p>{`My local time is ${format(utcDate, 'HH:mm')} GMT+3`} </p>
     </div>
   )
 
