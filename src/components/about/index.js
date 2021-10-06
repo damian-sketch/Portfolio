@@ -1,9 +1,8 @@
-import React, { useEffect} from 'react';
+import React, { useEffect, useState} from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './styles.css';
 import { format } from 'date-fns'
-import { useState } from 'react/cjs/react.development';
 
 
 const About = () => {
