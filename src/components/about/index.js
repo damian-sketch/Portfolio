@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Component} from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './styles.css';
-import MediaQuery from 'react-responsive';
 
 
 const About = () => {
@@ -19,6 +18,7 @@ const About = () => {
        <div id="intro-text">
         <h3 style={{color : 'white'}} >Cedric Muuo</h3>
         <p>I'm a Front-end developer</p>
+        <Time/>
         <p>Scroll down to view my work</p>
        </div>
         
@@ -36,8 +36,40 @@ const About = () => {
 
     
     
-    )
+  )
 };
+
+export class Time extends Component {
+
+  constructor() {
+  super();
+    var today = new Date(),
+
+    time = today.toTimeString()
+
+    this.state = {
+
+      currentTime: time
+
+    }
+
+  }
+
+   
+  render() {
+    return (
+      <div className="time">
+        <p>
+          My Local Time is { this.state.currentTime }
+        </p>
+      </div>
+    );
+  }
+
+}
+
+
+
 
 
 export default About;

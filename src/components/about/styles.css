@@ -68,3 +68,16 @@ body {
 .exp-text h4{
   color: rgb(146, 92, 22);
 }
+
+.time {
+  position: relative;
+  left: 20;
+  
+}
+
+.time p{
+  color: white;
+  font-size: 0.8em;
+  font-weight: bolder;
+  
+}
