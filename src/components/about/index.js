@@ -1,7 +1,9 @@
-import React, { useEffect, Component} from 'react';
+import React, { useEffect} from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './styles.css';
+import { format } from 'date-fns'
+import { useState } from 'react/cjs/react.development';
 
 
 const About = () => {
@@ -39,35 +41,30 @@ const About = () => {
   )
 };
 
-export class Time extends Component {
-
-  constructor() {
-  super();
-    var today = new Date(),
-
-    time = today.toTimeString()
-
-    this.state = {
-
-      currentTime: time
-
-    }
-
-  }
-
+export const Time = () => {
    
-  render() {
-    return (
-      <div className="time">
-        <p>
-          My Local Time is { this.state.currentTime }
-        </p>
-      </div>
-    );
-  }
+
+  const [time, setTime] = useState(new Date());
+
+  useEffect(
+    () => {
+      const intervalId = setInterval(() => {
+      
+        setTime(new Date());
+      }, 60000);
+      return () => {
+        clearInterval(intervalId)
+      }
+    } 
+  )
+
+  return(
+    <div>
+      <p>{`My local time is ${format(time, 'HH:mm')} GMT+3`} </p>
+    </div>
+  )
 
 }
-
 
 
 
