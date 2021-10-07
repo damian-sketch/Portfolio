@@ -12,6 +12,8 @@
       height: 1000px;
       }
     }    
+
+
   .contact-text {
     color: white;
     margin-top: 300px;
@@ -33,15 +35,28 @@ body{
 }
 
 .contactIcons{
-    padding: 10px;
-    margin-left: 220px;
+    padding: 40px;
+    
     cursor: pointer;
   }
   
-  @media screen and (max-width: 360px) {
-    .contactIcons {
-      width: 150px;
-      margin-left: -10px;
-      height: 1000px;
+@media screen and (max-width: 360px) {
+  .contactIcons {
+    width: 150px;
+    margin-left: -10px;
+    height: 1000px;
       }
-    }  
+}  
+
+@media screen and (max-width: 640px) {
+  .contactIcons {
+    width: 150px;
+    margin-left: -10px;
+    height: 1000px;
+      }
+}
+
+
+svg{
+  margin: 20px;
+}    

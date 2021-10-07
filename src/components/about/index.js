@@ -1,9 +1,8 @@
-import React, { useEffect, useState} from 'react';
+import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './styles.css';
-import { format } from 'date-fns'
-import { zonedTimeToUtc } from 'date-fns-tz'
+
 
 
 const About = () => {
@@ -20,7 +19,7 @@ const About = () => {
        <div id="intro-text">
         <h3 style={{color : 'white'}} >Cedric Muuo</h3>
         <p>I'm a Front-end developer</p>
-        <Time/>
+        {/* <Time/> */}
         <p>Scroll down to view my work</p>
        </div>
         
@@ -41,33 +40,34 @@ const About = () => {
   )
 };
 
-export const Time = () => {
+// Hooks to display updated time. Scraping it for now as it's facing issues
+
+// export const Time = () => {
    
 
-  const [time, setTime] = useState(new Date());
+//   const [time, setTime] = useState(moment());
 
-  var timeZone = 'Africa/Nairobi';
-  const utcDate = zonedTimeToUtc(time, timeZone)
+//   const utcDate = time().tz('Africa/Nairobi').format('ha z');
 
-  useEffect(
-    () => {
-      const intervalId = setInterval(() => {
+//   useEffect(
+//     () => {
+//       const intervalId = setInterval(() => {
       
-        setTime(new Date());
-      }, 60000);
-      return () => {
-        clearInterval(intervalId)
-      }
-    } 
-  )
+//         setTime(moment().format('h:mm a'));
+//       }, 60000);
+//       return () => {
+//         clearInterval(intervalId)
+//       }
+//     } 
+//   )
 
-  return(
-    <div>
-      <p>{`My local time is ${format(utcDate, 'HH:mm')} GMT+3`} </p>
-    </div>
-  )
+//   return(
+//     <div>
+//       <p>{`My local time is ${utcDate} GMT+3`} </p>
+//     </div>
+//   )
 
-}
+// }
 
 
 
