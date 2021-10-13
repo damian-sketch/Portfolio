@@ -11,16 +11,22 @@ const About = () => {
         duration: 1000, 
       });
     }, [])
+
+    const redirect = () => {
+      window.open('https://cedric21.medium.com/')
+    }
   
   
   return (
   <>
      <div className="intro">
        <div id="intro-text">
-        <h3 style={{color : 'white'}} >Cedric Muuo</h3>
-        <p>I'm a Front-end developer</p>
-        {/* <Time/> */}
-        <p>Scroll down to view my work</p>
+        <h3>Cedric Muuo</h3>
+        <h2>I build things for the web</h2>
+        
+        <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m searching and open to any remote opportunities.</p>
+
+        <button onClick={redirect}>Check out my Blog !</button>
        </div>
         
       </div> 
