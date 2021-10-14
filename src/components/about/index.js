@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './styles.css';
+import Profile from '../../images/Profile.jpeg'
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -43,10 +44,21 @@ const Redirect = () => {
 
       <div className="about">
         <div data-aos="fade-up" className="aboutText">
-        <p>I am an adept Front End Engineer with 2 years of Professional Software engineering experience and a passion in developing and designing web applications using React.<br></br>
-          Author of Software Engineering and Testing articles on <a href="https://cedric21.medium.com/" rel="noreferrer" target='_blank'>Medium</a><br></br><br></br>
-        <a href='https://www.linkedin.com/in/cedric-muuo-7625861aa/' rel="noreferrer" target='_blank'>Let's make something special</a>
+          <h4>About me</h4>
+        <p>Hello! My name is Cedric and I love to build exciting and beautiful web applications that genuinely help people's lives and businesses.<br></br><br></br> I have 2 years of experience working as a remote developer and in fast-moving companies. I am very flexible with different technologies and am able to learn and adapt to new environments quickly. <br></br><br></br> My knowledge spans the following technologies: 
+         <ul className="skillList">
+           <li>JavaScript (ES6+)</li>
+           <li>React</li>
+           <li>NodeJS</li>
+           <li>Deployment (Docker, AWS, Heroku, GCP )</li>
+           <li>QA(Selenium, Cypress, Jest)</li>
+           <li>Express</li>
+          </ul>
         </p>
+        </div>
+
+        <div className="image">
+          <img alt="" src={Profile}></img>
         </div>
       </div> 
   </>

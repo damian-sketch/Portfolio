@@ -3,7 +3,6 @@
 
 .experience{
     display: inline-block;
-    font-size: 1.7em;
     color: white;
     min-height: 100vh;
     width: 100%;
@@ -18,7 +17,6 @@
   
   .exp-text{
     color: white;
-    font-size: 1em;
     margin: 180px;
   }
 
@@ -30,10 +28,15 @@
     }
   }
 
-p{
-    font-size: 0.9em;
+.expList li{
+  list-style-type: square;
+  padding: 15px;
 }
 
-h4{
-    color: rgb(183, 195, 197);
+.exp-text h1{
+    color: rgb(15, 89, 102);
+}
+
+.exp-text h4{
+  color: rgb(2, 75, 53);
 }

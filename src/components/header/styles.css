@@ -4,17 +4,19 @@ ul.Headerlist {
     width: 600px;
   }
 
-li{
+ li{
     display: inline;
     padding: 8px;
     cursor: pointer;
-    color: white;
-
-    
+    margin: 10px;
 }  
 
+a {
+    color: rgb(3, 82, 42);
+}
 
-li:hover {
+
+a:hover {
     color: rgb(15, 89, 102);
   }
 
@@ -23,6 +25,6 @@ div.NavBar{
     position: fixed;
     top: 5;
     width: 100%;
-    background-color: rgb(39, 62, 83);
+    background-color: rgb(3, 28, 53);
     z-index: 1;
 }  
