@@ -16,10 +16,14 @@
 
   .contact-text {
     color: white;
-    margin-top: 300px;
+    margin-top: 750px;
     font-size: 2em;
     width: 700px;
-    margin-left: 400px;
+    margin-left: 450px;
+  }
+
+  .contact-text h1 {
+   color: rgb(15, 89, 102);
   }
 
   @media screen and (max-width: 360px) {
@@ -57,3 +61,7 @@
 svg{
   margin: 20px;
 }    
+
+.contact button {
+  margin-left: 200px;
+}
