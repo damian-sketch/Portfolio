@@ -1,27 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-scroll';
 import './styles.css';
 
 
 
-const tabs = ['About', 'Experience', 'Projects', 'Contact'];
-
 function Header(){
 
-    const [active, setActive] = useState(tabs[0]);
     return (
       
     <div className="NavBar">   
      <ul className="Headerlist">   
-       {tabs.map(tab => (
-         <li
-         key={tab}
-         active={active === tab}
-         onClick={() => setActive(tab)}
-         >
-           
-             {tab}
-         </li>
-       ))} 
+       <li><Link to="about" spy={true} smooth={true}>About</Link></li>
+       <li><Link to="experience" spy={true} smooth={true}>Experience</Link></li>
+       <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+       <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
      </ul> 
     </div> 
     )

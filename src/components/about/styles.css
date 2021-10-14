@@ -23,6 +23,8 @@
 }
 
 #intro-text {
+  display: flex;
+  flex-direction: column;
   margin-top: 10px;
   text-align: left;
   width: 900px;
@@ -105,4 +107,17 @@ button {
 button:hover {
   cursor: pointer;
   background-color: rgba(123, 175, 145, 0.233);
+}
+
+.contactSect {
+  margin-right: 920px;
+}
+
+.contactIcons {
+  position: fixed;
+  top: 450px;
+}
+
+.contactIcons :hover {
+  cursor: pointer;
 }
