@@ -2,15 +2,31 @@ import React from 'react';
 import './styles.css';
 import nutri from '../../images/nutri.png';
 import akan from '../../images/akan.png';
-import easy from '../../images/easy.png';
+import textr from '../../images/textr.png';
 
 function Projects(){
     return (
       
     <div className="projects">
+        <h4>HIGHLIGHTED PROJECTS</h4>
+
         <div data-aos="zoom-out" className="indivProject">
             <div data-aos="zoom-out" className="project-text">
-                <h4>PROJECTS</h4>
+                <p>
+                    <h3><a href="https://happy-davinci-4bd16c.netlify.app/">TEXTR</a></h3>
+                    This is a mobile-responsive messaging app built using React and leverages the use of ChatEngine to provide an interactive communication experience. Hosted on Netlify.
+                </p>
+                <ul className="tech">
+                    <li>React</li>
+                    <li>Chat Engine</li>
+                    <li>React Testing Library</li>
+                </ul>
+            </div>
+           <div className="projImage"><img src={textr} alt=""></img></div>
+        </div>
+
+        <div data-aos="zoom-out" className="indivProject">
+            <div data-aos="zoom-out" className="project-text">
                 <p>
                     <h3><a href="https://damian-sketch.github.io/NutriCrew/">NUTRIAPP</a></h3>
                     This is an application that acts more like a remote doctor. By inputing some personal data such as Weight, Height and Physical activity, the user reveives ther caloric intake recommendation and is able to evaluate their health status.
@@ -39,20 +55,6 @@ function Projects(){
            <div className="projImage"><img src={akan} alt=""></img></div>
         </div>
 
-        <div data-aos="zoom-out" className="indivProject">
-            <div data-aos="zoom-out" className="project-text">
-                <p>
-                    <h3><a href="https://damian-sketch.github.io/Made-easy/">MADE-EASY INSURANCE</a></h3>
-                    A portfolio website for an insurance agency based in Nairobi.
-                </p>
-                <ul className="tech">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-           <div className="projImage"><img src={easy} alt=""></img></div>
-        </div>
     </div>
     )
 }
