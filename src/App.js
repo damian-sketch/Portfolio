@@ -6,8 +6,7 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import Header from './components/header';
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header/>

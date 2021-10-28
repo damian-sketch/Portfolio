@@ -13,6 +13,13 @@
       }
     }    
 
+    @media screen and (max-width: 770px) {
+      .contact {
+        width: 400px;
+        margin-left: -10px;
+        height: 1000px;
+        }
+      }  
 
   .contact-text {
     color: white;

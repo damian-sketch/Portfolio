@@ -27,7 +27,7 @@ function Projects(){
         <div data-aos="zoom-out" className="indivProject">
             <div data-aos="zoom-out" className="project-text">
                 <p>
-                    <h3><a href="https://damian-sketch.github.io/NutriCrew/">AKAN NAMES</a></h3>
+                    <h3><a href="https://damian-sketch.github.io/Birthday/">AKAN NAMES</a></h3>
                     Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. This application will help you identify an Akan name based on the time you were born.
                 </p>    
                 <ul className="tech">
@@ -42,7 +42,7 @@ function Projects(){
         <div data-aos="zoom-out" className="indivProject">
             <div data-aos="zoom-out" className="project-text">
                 <p>
-                    <h3><a href="https://damian-sketch.github.io/NutriCrew/">MADE-EASY INSURANCE</a></h3>
+                    <h3><a href="https://damian-sketch.github.io/Made-easy/">MADE-EASY INSURANCE</a></h3>
                     A portfolio website for an insurance agency based in Nairobi.
                 </p>
                 <ul className="tech">
