@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 import nutri from '../../images/nutri.png';
 import akan from '../../images/akan.png';
-import textr from '../../images/textr.png';
+import convo from '../../images/convo.png';
 
 function Projects(){
     return (
@@ -22,7 +22,7 @@ function Projects(){
                     <li>React Testing Library</li>
                 </ul>
             </div>
-           <div className="projImage"><img src={textr} alt=""></img></div>
+           <div className="projImage"><img src={convo} alt=""></img></div>
         </div>
 
         <div data-aos="zoom-out" className="indivProject">

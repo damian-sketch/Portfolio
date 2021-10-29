@@ -7,8 +7,7 @@ function Experience(){
       
      <div className="experience">
         <div data-aos="zoom-in" className="exp-text">
-          <h1>Where I've Worked</h1>
-            
+        <h1>WHERE I'VE WORKED</h1>
             <h4><a href="https://moringaschool.com/">Moringa School</a> (October 2019 - August 2020)</h4>
             <ul className="expList">
             <li>Managed a team of 5 Software Engineers in designing and deploying a nutrition evaluation application using HTML, CSS, and JavaScript</li><br></br><br></br>

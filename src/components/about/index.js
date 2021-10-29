@@ -44,7 +44,7 @@ const Redirect = () => {
 
       <div className="about">
         <div data-aos="fade-up" className="aboutText">
-          <h4>About me</h4>
+          <h4>ABOUT ME</h4>
         <p>Hello! My name is Cedric and I love to build exciting and beautiful web applications that genuinely help people's lives and businesses.<br></br><br></br> I have 2 years of experience working as a remote developer and in fast-moving companies. I am very flexible with different technologies and am able to learn and adapt to new environments quickly. <br></br><br></br> My knowledge spans the following technologies: 
          <ul className="skillList">
            <li>JavaScript (ES6+)</li>
