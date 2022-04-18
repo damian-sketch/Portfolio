@@ -26,9 +26,11 @@
   margin: 180px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .exp-text {
     font-size: 1.7em;
+    margin-left: 120px;
+    width: 320px;
   }
 }
 

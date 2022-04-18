@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap");
 
 .About {
   /* display: flex; */
   justify-content: space-evenly;
 }
 
-.intro{
+.intro {
   font-size: 1.7em;
   min-height: 100vh;
   width: 100%;
   padding: 40px;
 }
 
-.intro p{
+.intro p {
   color: white;
 }
 
@@ -43,11 +43,9 @@
   min-height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-columns: 900px 200px ;
+  grid-template-columns: 900px 200px;
   gap: 50px;
 }
-
-
 
 .aboutText {
   color: rgb(183, 195, 197);
@@ -62,14 +60,25 @@
     width: 520px;
     margin-left: 100px;
   }
-
 }
 
-@media screen and (min-width: 320px) {
-  .image {
-    margin-left: -200px;
+@media screen and (max-width: 320px) {
+  .about {
+    display: block;
   }
+}
 
+@media screen and (max-width: 320px) {
+  .image {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  ul.skillList {
+    display: grid;
+    grid-template-columns: none;
+  }
 }
 
 body {
@@ -77,24 +86,22 @@ body {
 }
 
 .aboutText a {
-  color:white
+  color: white;
 }
 
-.exp-text h4{
+.exp-text h4 {
   color: rgb(146, 92, 22);
 }
 
 .time {
   position: relative;
   left: 20;
-  
 }
 
-.time p{
+.time p {
   color: white;
   font-size: 0.8em;
   font-weight: bolder;
-  
 }
 
 #intro-text h3 {
@@ -102,9 +109,9 @@ body {
   color: rgb(15, 89, 102);
 }
 
- h2{
+h2 {
   font-size: clamp(40px, 8vw, 80px);
-  color:rgb(183, 195, 197)
+  color: rgb(183, 195, 197);
 }
 
 button {
@@ -137,22 +144,22 @@ button:hover {
   color: rgb(15, 89, 102);
 }
 
-ul.skillList {
+@media screen and (min-width: 768px) {
+  ul.skillList {
     display: grid;
     grid-template-columns: 290px 540px;
     gap: 20px;
     font-size: smaller;
+  }
 }
-
 .skillList li {
-  color:rgb(64, 154, 102);
+  color: rgb(64, 154, 102);
 }
 
 .image {
   margin-top: 150px;
-  
 }
 
-.about h4{
+.about h4 {
   color: rgb(15, 89, 102);
-} 
+}

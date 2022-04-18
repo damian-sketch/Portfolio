@@ -22,9 +22,17 @@
 
 @media screen and (min-width: 320px) {
   .projects {
-    width: 700px;
+    width: 100%;
     margin-left: 60px;
-    height: 1000px;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    width: 100%;
+    margin-left: 60px;
+    height: 100%;
   }
 }
 
@@ -44,11 +52,42 @@
   .project-text {
     margin-left: 80px;
     font-size: 1.7em;
-    width: 370px;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
+  .project-text {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .indivProject {
+    font-size: 0.4em;
+    margin-left: -140px;
+    display: grid;
+    grid-template-columns: 499px 120px;
+    grid-gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .indivProject {
+    font-size: 0.4em;
+    display: grid;
+    grid-template-columns: 499px 120px;
+    grid-gap: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tech {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .projImage img {
     display: none;
   }
