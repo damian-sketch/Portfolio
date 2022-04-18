@@ -1,44 +1,48 @@
-@import url('https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap");
 
+.experience {
+  display: inline-block;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+}
 
-.experience{
-    display: inline-block;
-    color: white;
-    min-height: 100vh;
-    width: 100%;
-  }
-  
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 320px) {
   .experience {
-    width: 400px;
-    margin-left: -10px;
-    }
+    width: 1000px;
+    margin-left: 20px;
   }
-  
-  .exp-text{
-    color: white;
-    margin: 180px;
-  }
+}
 
-@media screen and (max-width: 360px) {
-    .exp-text {
-    margin-left: 80px;
-    font-size: 0.7em;
-    width: 170px;
-    }
+@media screen and (min-width: 768px) {
+  .experience {
+    width: 1200px;
+    margin-left: 50px;
   }
+}
 
-.expList li{
+.exp-text {
+  color: white;
+  margin: 180px;
+}
+
+@media screen and (min-width: 320px) {
+  .exp-text {
+    font-size: 1.7em;
+  }
+}
+
+.expList li {
   list-style-type: square;
   padding: 15px;
 }
 
-.exp-text h1{
-    color: rgb(15, 89, 102);
-    text-align: center;
+.exp-text h1 {
+  color: rgb(15, 89, 102);
+  text-align: center;
 }
 
-.exp-text h4{
+.exp-text h4 {
   color: rgb(9, 150, 79);
-  font-size: 1.8em ;
+  font-size: 1.8em;
 }

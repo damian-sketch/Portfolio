@@ -28,3 +28,11 @@ div.NavBar{
     background-color: rgb(3, 28, 53);
     z-index: 1;
 }  
+
+@media screen and (min-width: 320px) {
+    ul.Headerlist{
+        list-style-type: none;
+        margin-left: 100px;
+        width: 600px;
+    }
+}

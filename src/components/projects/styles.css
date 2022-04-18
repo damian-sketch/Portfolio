@@ -1,65 +1,69 @@
-@import url('https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Akaya+Telivigala&display=swap");
 
-.projects{
-    display: inline-block;
-    width: 500px;
-    font-size: 1.7em;
-    color: white;
-    width: 100%;
-    height: 100vh;
-  }
+.projects {
+  display: inline-block;
+  width: 500px;
+  font-size: 1.7em;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
 
-  .indivProject {
-    display: grid;
-    grid-template-columns: 900px 120px;
-  }
+.indivProject {
+  display: grid;
+  grid-template-columns: 900px 120px;
+}
 
- .projImage img {
+.projImage img {
   width: 450px;
   height: 450px;
   margin-top: 150px;
- }
- 
-  @media screen and (max-width: 360px) {
-    .projects {
-      width: 400px;
-      margin-left: -10px;
-      height: 1000px;
-      }
-    }  
-  
-.project-text {
-    color: white;
-    font-size: 0.8em;
-    margin-left: 180px;
-    margin-top: 240px;
+}
+
+@media screen and (min-width: 320px) {
+  .projects {
+    width: 700px;
+    margin-left: 60px;
+    height: 1000px;
   }
+}
+
+.project-text {
+  color: white;
+  font-size: 0.8em;
+  margin-left: 180px;
+  margin-top: 240px;
+}
 
 .tech {
   margin-left: 250px;
   font-size: 0.7em;
   color: rgb(9, 150, 79);
-  
 }
-  @media screen and (max-width: 360px) {
-    .project-text {
+@media screen and (min-width: 320px) {
+  .project-text {
     margin-left: 80px;
-    font-size: 0.7em;
-    width: 170px;
-    }
-  }  
-
-a{
-    text-decoration: none;
-    color: rgb(9, 150, 79);
+    font-size: 1.7em;
+    width: 370px;
+  }
 }
 
-a:hover{
-    color:saddlebrown
+@media screen and (min-width: 320px) {
+  .projImage img {
+    display: none;
+  }
+}
+a {
+  text-decoration: none;
+  color: rgb(9, 150, 79);
 }
 
-h4{
-    color: rgb(15, 89, 102);
-    text-align: center;
-    font-size: 1.2em;
+a:hover {
+  color: saddlebrown;
+}
+
+h4 {
+  color: rgb(15, 89, 102);
+  text-align: center;
+  font-size: 1.2em;
 }
