@@ -1,30 +1,99 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
-
-function Experience(){
-    return (
-      
-     <div className="experience">
-        <div data-aos="zoom-in" className="exp-text">
+function Experience() {
+  return (
+    <div className="experience">
+      <div data-aos="zoom-in" className="exp-text">
         <h1>WHERE I'VE WORKED</h1>
-            <h4><a href="https://moringaschool.com/">Moringa School</a> (October 2019 - August 2020)</h4>
-            <ul className="expList">
-            <li>Managed a team of 5 Software Engineers in designing and deploying a nutrition evaluation application using HTML, CSS, and JavaScript</li><br></br><br></br>
-                <li>Achieved 15% to 20% spike in traffic by working closely with my teammates on SEO initiatives.</li><br></br><br></br>
-                <li>Implemented websites, and landing pages from concept through deployment using React.</li><br></br><br></br>
-                <li>Optimized UI Performance and load times by up to 80% through testing with Selenium.</li>
-            </ul>
-            <h4><a href="https://trilogy.com/">Trilogy</a> (September 2020 - PRESENT)</h4>
-            <ul className="exp-list">
-                <li>I manually executed functional testing of over 100 test scenarios beating team averages by 20% against work completion deadlines.</li><br></br><br></br>
-                <li>Automated 200+ End-to-End, API, and Mobile tests using the internal Gherkin/behave engine</li><br></br><br></br>
-                <li>Reduced false-positive defect rate from 32% to less than 5%</li>
-            </ul>
-        </div>
-     </div>
-    )
-}
 
+        <h4>
+          <a href="https://trilogy.com/">Trilogy</a> (September 2020 - October
+          2021)
+        </h4>
+        <ul className="exp-list">
+          <li>
+            - I manually executed functional testing of over 100 test scenarios
+            beating team averages by 20% against work completion deadlines.
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            - Automated 200+ End-to-End, API, and Mobile tests using the
+            internal Gherkin/behave engine
+          </li>
+          <br></br>
+          <br></br>
+          <li>- Reduced false-positive defect rate from 32% to less than 5%</li>
+        </ul>
+        <h4>
+          <a href="https://qatestlab.com/">QATestlab</a> (October 2021 - January
+          2022)
+        </h4>
+        <ul className="exp-list">
+          <li>
+            - Developed a test framework using Selenium and TypeScript for a
+            web3 wallet.
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            - Setup a GraphQL testing framework for a hotel delivery application
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            - Automated 30+ test cases for a model-based testing tool using
+            Cypress and JavaScript
+          </li>
+        </ul>
+        <h4>
+          <a href="https://christmas4kids.org/">Christmas 4 Kids</a> (November
+          2021 - December 2021)
+        </h4>
+        <ul className="exp-list">
+          <li>
+            - I am an active open-source contributor to the
+            <a href="https://github.com/Christmas-4-Kids/">
+              {" "}
+              Christmas 4 Kids{" "}
+            </a>
+            organization repo.
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            - I updated the UI/UX to be accessible to all users utilizing a11y
+            standards
+          </li>
+          <br></br>
+          <br></br>
+          <li>- I updated the colors and the overall look and feel</li>
+        </ul>
+        <h4>
+          <a href="https://www.tradecore.com/">TradeCore</a> (January 2022 -
+          Present)
+        </h4>
+        <ul className="exp-list">
+          <li>
+            - Developed a test framework using Selenium and TypeScript for a
+            web3 wallet.
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            - Setup a GraphQL testing framework for a hotel delivery application
+          </li>
+          <br></br>
+          <br></br>
+          <li>
+            - Automated 30+ test cases for a model-based testing tool using
+            Cypress and JavaScript
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
 
 export default Experience;
