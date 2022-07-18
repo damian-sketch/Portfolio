@@ -2,7 +2,6 @@
 
 .projects {
   display: inline-block;
-  width: 500px;
   font-size: 1.7em;
   color: white;
   width: 100%;
@@ -28,13 +27,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .projects {
-    width: 100%;
-    margin-left: 60px;
-    height: 100%;
-  }
-}
+
 
 .project-text {
   color: white;
@@ -62,15 +55,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .indivProject {
-    font-size: 0.4em;
-    margin-left: -140px;
-    display: grid;
-    grid-template-columns: 499px 120px;
-    grid-gap: 80px;
-  }
-}
+
 
 @media screen and (min-width: 1024px) {
   .indivProject {
