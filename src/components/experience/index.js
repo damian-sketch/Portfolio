@@ -76,19 +76,23 @@ function Experience() {
         </h4>
         <ul className="exp-list">
           <li>
-            - Developed a test framework using Selenium and TypeScript for a
-            web3 wallet.
+            - Automated 20 test cases using TypeScript as the primary language
           </li>
           <br></br>
           <br></br>
           <li>
-            - Setup a GraphQL testing framework for a hotel delivery application
+            - Streamlined automation capabilities that improved test life cycle
+            by 80%
           </li>
           <br></br>
           <br></br>
           <li>
-            - Automated 30+ test cases for a model-based testing tool using
-            Cypress and JavaScript
+            - Converted more than 50 test cases from the old Cypress framework
+            to a new Cucumber based framework
+          </li>
+          <li>
+            - Achieved 100% success rate on tests by continuously maintaining
+            the CI/CD pipeline
           </li>
         </ul>
       </div>

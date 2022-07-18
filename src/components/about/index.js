@@ -29,9 +29,9 @@ const About = () => {
           <h2>I build things for the web</h2>
 
           <p>
-            I’m a Frontend engineer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I’m searching
-            and open to any remote opportunities.
+            I am a professional Software and Quality Assurance Engineer,
+            Open-source contributor, and Author with 2 years of experience in
+            building and testing web applications.
           </p>
 
           <button onClick={Redirect}>Check out my Blog !</button>
