@@ -58,3 +58,9 @@
   color: rgb(9, 150, 79);
   font-size: 1.8em;
 }
+
+@media screen and (max-width: 1440px) {
+  .overallExp {
+   display: block;
+  }
+}
