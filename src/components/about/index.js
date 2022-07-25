@@ -3,12 +3,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./styles.css";
 import Profile from "../../images/Profile.jpeg";
-import {
-  faGithub,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
   useEffect(() => {
@@ -16,10 +10,6 @@ const About = () => {
       duration: 1000,
     });
   }, []);
-
-  const Redirect = () => {
-    window.open("https://cedric21.medium.com/");
-  };
 
   return (
     <>

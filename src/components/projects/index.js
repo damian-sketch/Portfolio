@@ -3,6 +3,7 @@ import "./styles.css";
 import nutri from "../../images/nutri.png";
 import akan from "../../images/akan.png";
 import convo from "../../images/convo.png";
+import hunters from "../../images/hunters.png";
 
 function Projects() {
   return (
@@ -13,20 +14,24 @@ function Projects() {
         <div data-aos="zoom-out" className="project-text">
           <p>
             <h3>
-              <a href="/">HouseHunters</a>
+              <a href="https://lucky-empanada-bcd1f2.netlify.app/login">
+                HouseHunters
+              </a>
             </h3>
             This is an application that is designed to help house seekers to
             connect easily with house providers in Nairobi. The application uses
-            the MERN stack and is still a WIP.
+            the MERN stack and is still a WIP. It is hosted on Netlify and
+            Heroku and can be viewed by clicking the title link
           </p>
           <ul className="tech">
             <li>React</li>
-            <li>Chat Engine</li>
-            <li>React Testing Library</li>
+            <li>Express</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
           </ul>
         </div>
         <div className="projImage">
-          <img src={convo} alt=""></img>
+          <img src={hunters} alt=""></img>
         </div>
       </div>
       <div data-aos="zoom-out" className="indivProject">

@@ -71,10 +71,7 @@ body {
   font-weight: bolder;
 }
 
-#intro-text h3 {
-  font-size: clamp(40px, 8vw, 80px);
-  color: rgb(15, 89, 102);
-}
+
 
 h2 {
   font-size: clamp(40px, 8vw, 80px);
@@ -129,5 +126,5 @@ button:hover {
 }
 
 .about h4 {
-  color: rgb(15, 89, 102);
+  color: rgb(23, 177, 177);
 }

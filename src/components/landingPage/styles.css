@@ -41,3 +41,8 @@
     width: 900px;
     margin-left: 160px;
   }
+
+  #intro-text h3 {
+    color: rgb(23, 177, 177);
+    font-size: clamp(40px, 8vw, 80px);
+  }
