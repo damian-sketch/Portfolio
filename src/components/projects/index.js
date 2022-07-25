@@ -14,7 +14,7 @@ function Projects() {
         <div data-aos="zoom-out" className="project-text">
           <p>
             <h3>
-              <a href="https://lucky-empanada-bcd1f2.netlify.app/login">
+              <a href="https://lucky-empanada-bcd1f2.netlify.app/">
                 HouseHunters
               </a>
             </h3>
