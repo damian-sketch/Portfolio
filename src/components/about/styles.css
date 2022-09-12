@@ -105,7 +105,7 @@ button:hover {
 
 .contactIcons :hover {
   cursor: pointer;
-  color: rgb(15, 89, 102);
+  color: rgb(241, 241, 241);
 }
 
 @media screen and (min-width: 768px) {
