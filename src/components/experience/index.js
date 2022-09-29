@@ -93,8 +93,10 @@ function Experience() {
         <div data-aos="zoom-in" className="exp-text">
           <h1>OPEN-SOURCE CONTRIBUTIONS</h1>
           <h4>
-            <a href="https://christmas4kids.org/">Christmas 4 Kids</a> (November
-            2021 - December 2021)
+            <a href="https://github.com/Christmas-4-Kids/c4k/pull/59">
+              Christmas 4 Kids
+            </a>{" "}
+            (November 2021 - December 2021)
           </h4>
           <ul className="exp-list">
             <li>
