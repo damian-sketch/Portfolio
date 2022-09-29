@@ -34,26 +34,6 @@ function Projects() {
           <img src={hunters} alt=""></img>
         </div>
       </div>
-      <div data-aos="zoom-out" className="indivProject">
-        <div data-aos="zoom-out" className="project-text">
-          <p>
-            <h3>
-              <a href="https://happy-davinci-4bd16c.netlify.app/">TEXTR</a>
-            </h3>
-            This is a mobile-responsive messaging app built using React and
-            leverages the use of ChatEngine to provide an interactive
-            communication experience. Hosted on Netlify.
-          </p>
-          <ul className="tech">
-            <li>React</li>
-            <li>Chat Engine</li>
-            <li>React Testing Library</li>
-          </ul>
-        </div>
-        <div className="projImage">
-          <img src={convo} alt=""></img>
-        </div>
-      </div>
 
       <div data-aos="zoom-out" className="indivProject">
         <div data-aos="zoom-out" className="project-text">
